@@ -20,9 +20,10 @@ public class Recursion{
         walk(5);
         System.out.println();
         /* if we call the method too many times, we will run out of memory */
-        walk_Exception(1000000);
-        System.out.println();
+        walk_Exception(100000);
+        System.out.println("\n Factorial number of 7: ");
         System.out.println(factorial(7));
+        System.out.println("2^8: ");
         System.out.print(power(2,8));
     }
     private static void walk_Exception(int steps) {
